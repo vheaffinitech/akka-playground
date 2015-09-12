@@ -7,7 +7,10 @@ case class Msg(text : String)
 
 class HelloActor extends Actor {
   def receive = {
-    case Msg(t) => println(t)
+    case Msg(t) => {
+      if (t == "hello") println(s"  $t back to you")
+      else println(s"  does '$t' mean hello ?")
+    }
     case StopMsg => context.stop(self)
     case _       => println("  huh?")
   }
@@ -20,7 +23,7 @@ object Main extends App {
   helloActor ! Msg("hello")
   helloActor ! Msg("bonjour")
   helloActor ! Msg("gutentag")
-  
+
   helloActor ! StopMsg
 
   system.shutdown()
