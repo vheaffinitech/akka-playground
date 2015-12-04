@@ -28,7 +28,8 @@ object Main extends App {
   implicit val timeout = Timeout(5 seconds)
 
   val future = helloActor ? Msg("hello")
-  val result = Await.result(future, timeout.duration).asInstanceOf[String]
+  //val result = Await.result(future, timeout.duration).asInstanceOf[String]
+  val result = Await.result(future, 1 second).asInstanceOf[String]
   println(result)
 
   //another way
@@ -36,7 +37,7 @@ object Main extends App {
   val result2 = Await.result(future2, 1 second)
   println(result2)
 
+  //comment these lines to avoid
   helloActor ! StopMsg
-
-  system.shutdown()
+  //system.shutdown()
 }
