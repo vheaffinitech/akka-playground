@@ -10,20 +10,27 @@ case class Msg(text : String)
 // case class Response(text : String)
 
 class FirstActor() extends Actor {
+  val nextStage = context.actorOf(Props[SecondActor])
 
   def receive = {
     case Msg(t)  => {
       println(s" $self received '$t' sending to next step")
       Thread.sleep(util.Random.nextInt(10))
-      //nextStage ! Msg(s"(FirstActor:$t)")
+      nextStage ! Msg(s"(FirstActor:$t)")
     }
-    // case Response(t) => {
-    //   println(s" FirstActor received response '$t'")
-    // }
-    // case StopMsg => context.stop(self)
-    // case _       => sender ! "  huh?"
   }
 }
+
+class SecondActor extends Actor {
+  def receive = {
+    case Msg(t)  => {
+      println(s" $self received '$t'")
+      Thread.sleep(util.Random.nextInt(10))
+      //sender ! Response(s"(SecondActor:$t)")
+    }
+  }
+}
+
 
 object Main extends App {
   val system = ActorSystem("HelloSystem")
@@ -37,7 +44,7 @@ object Main extends App {
   val routerProps = Props.empty.withRouter(RoundRobinRouter(routees = routees))
   val router = system.actorOf(routerProps)
 
-  for (i <- 1 to 10) {
+  for (i <- 1 to 200) {
     router ! Msg(s"message $i")
   }
 
