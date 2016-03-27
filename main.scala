@@ -25,6 +25,6 @@ object Main extends App {
   helloActor ! Msg("gutentag")
 
   helloActor ! StopMsg
-
+  Thread.sleep(1000L)
   system.shutdown()
 }
