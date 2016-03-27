@@ -16,14 +16,15 @@ case class Msg(text : String)
 class FirstActor extends Actor {
 
   val nextStage = context.actorOf(Props[SecondActor], name = "secondactor")
-
+  implicit val timeout = Timeout(1 seconds)
   def receive = {
     case Msg(t)  => {
       // if (t == "hello") sender ! s"  $t back to you"
       // else sender ! s"  does '$t' mean hello ?"
       println(s" FirstActor received '$t' sending to next step")
       Thread.sleep(util.Random.nextInt(10))
-      nextStage ! Msg(s"(FirstActor:$t)")
+      val future = nextStage ? Msg(s"(FirstActor:$t)")
+      sender ! Await.result(future, timeout.duration).asInstanceOf[String]
     }
     case StopMsg => context.stop(self)
     case _       => sender ! "  huh?"
@@ -37,7 +38,8 @@ class SecondActor extends Actor {
       // else sender ! s"  does '$t' mean hello ?"
       println(s" SecondActor received '$t'")
       Thread.sleep(util.Random.nextInt(10))
-      println(s"     SecondActor processed '$t'")
+      println(s" SecondActor processed '$t'")
+      sender ! s"(SecondActor:$t)"
     }
     case StopMsg => context.stop(self)
     case _       => sender ! "  huh?"
@@ -51,7 +53,9 @@ object Main extends App {
   implicit val timeout = Timeout(1 seconds)
 
   for (i <- 1 to 200) {
-    firstActor ! Msg(s"message $i")
+    //firstActor ! Msg(s"message $i")
+    val future = firstActor ? Msg(s"message $i")
+    println(Await.result(future, timeout.duration).asInstanceOf[String])
   }
 
   Thread.sleep(15000L)
