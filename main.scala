@@ -2,6 +2,8 @@ import akka.actor.Actor
 import akka.actor.ActorSystem
 import akka.actor.Props
 
+// Using case class for messages
+
 case object StopMsg;
 case class Msg(text : String)
 
@@ -25,6 +27,8 @@ object Main extends App {
   helloActor ! Msg("gutentag")
 
   helloActor ! StopMsg
+
+  // Sleep 1 sec to avoid deadletters
   Thread.sleep(1000L)
   system.shutdown()
 }
