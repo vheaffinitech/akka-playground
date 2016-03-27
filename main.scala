@@ -7,6 +7,8 @@ import akka.pattern.ask
 import akka.util.Timeout
 import scala.concurrent.duration._
 
+// using Ask & Future
+
 case object StopMsg;
 case class Msg(text : String)
 
@@ -15,7 +17,7 @@ class HelloActor extends Actor {
     case Msg(t)  => {
       if (t == "hello") sender ! s"  $t back to you"
       else sender ! s"  does '$t' mean hello ?"
-    }
+    }    
     case StopMsg => context.stop(self)
     case _       => sender ! "  huh?"
   }
@@ -37,7 +39,7 @@ object Main extends App {
   val result2 = Await.result(future2, 1 second)
   println(result2)
 
-  //comment these lines to avoid
   helloActor ! StopMsg
-  //system.shutdown()
+  Thread.sleep(5L)
+  system.shutdown()
 }
