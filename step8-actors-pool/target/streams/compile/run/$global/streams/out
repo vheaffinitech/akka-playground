@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mRunning Main [0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a2#2115698694] received 'message 2' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a3#-849846375] received 'message 3' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a4#-1527363433] received 'message 4' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a5#-1318666543] received 'message 5' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a1#450537066] received 'message 1' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a3#-849846375] received 'message 8' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a1#450537066] received 'message 6' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a4#-1527363433] received 'message 9' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a2#2115698694] received 'message 7' sending to next step[0m
+[0m[[0minfo[0m] [0m Actor[akka://HelloSystem/user/a5#-1318666543] received 'message 10' sending to next step[0m
