@@ -34,7 +34,7 @@ object Main extends App {
   val helloActor = system.actorOf(Props[HelloActor], name = "helloactor")
 
   // change timeout from 5 sec to 1 sec to see
-  implicit val timeout = Timeout(5 seconds)
+  implicit val timeout = Timeout(1 seconds)
 
   val future = helloActor ? Msg("hello")
   //val result = Await.result(future, timeout.duration).asInstanceOf[String]
