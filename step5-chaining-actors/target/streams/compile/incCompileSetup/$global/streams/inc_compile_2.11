@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes
+output dir -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes
 compile options:
 0 items
 javac options:
@@ -20,23 +20,23 @@ name hashing:
 0 -> true
 products:
 12 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor$$anonfun$receive$1.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$$anonfun$1.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$delayedInit$body.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg$.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor$$anonfun$receive$2.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg$.class
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/FirstActor$$anonfun$receive$1.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/FirstActor.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$$anonfun$1.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$delayedInit$body.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Msg$.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Msg.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/SecondActor$$anonfun$receive$2.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/SecondActor.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/StopMsg$.class
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/StopMsg.class
 binary dependencies:
 3 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar
-/Users/vheuschling/WORK/akka-playground/main.scala -> /Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> /Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -55,119 +55,119 @@ inheritance external dependencies:
 0 items
 class names:
 12 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> FirstActor
-/Users/vheuschling/WORK/akka-playground/main.scala -> FirstActor$$anonfun$receive$1
-/Users/vheuschling/WORK/akka-playground/main.scala -> Main
-/Users/vheuschling/WORK/akka-playground/main.scala -> Main$
-/Users/vheuschling/WORK/akka-playground/main.scala -> Main$$anonfun$1
-/Users/vheuschling/WORK/akka-playground/main.scala -> Main$delayedInit$body
-/Users/vheuschling/WORK/akka-playground/main.scala -> Msg
-/Users/vheuschling/WORK/akka-playground/main.scala -> Msg$
-/Users/vheuschling/WORK/akka-playground/main.scala -> SecondActor
-/Users/vheuschling/WORK/akka-playground/main.scala -> SecondActor$$anonfun$receive$2
-/Users/vheuschling/WORK/akka-playground/main.scala -> StopMsg
-/Users/vheuschling/WORK/akka-playground/main.scala -> StopMsg$
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> FirstActor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> FirstActor$$anonfun$receive$1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Main
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Main$
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Main$$anonfun$1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Main$delayedInit$body
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Msg
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Msg$
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> SecondActor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> SecondActor$$anonfun$receive$2
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> StopMsg
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> StopMsg$
 used names:
 82 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> !
-/Users/vheuschling/WORK/akka-playground/main.scala -> &&
-/Users/vheuschling/WORK/akka-playground/main.scala -> <init>
-/Users/vheuschling/WORK/akka-playground/main.scala -> ==
-/Users/vheuschling/WORK/akka-playground/main.scala -> ?
-/Users/vheuschling/WORK/akka-playground/main.scala -> A1
-/Users/vheuschling/WORK/akka-playground/main.scala -> AbstractFunction1
-/Users/vheuschling/WORK/akka-playground/main.scala -> Actor
-/Users/vheuschling/WORK/akka-playground/main.scala -> ActorSystem
-/Users/vheuschling/WORK/akka-playground/main.scala -> App
-/Users/vheuschling/WORK/akka-playground/main.scala -> Await
-/Users/vheuschling/WORK/akka-playground/main.scala -> B1
-/Users/vheuschling/WORK/akka-playground/main.scala -> ClassTag
-/Users/vheuschling/WORK/akka-playground/main.scala -> FirstActor
-/Users/vheuschling/WORK/akka-playground/main.scala -> Function1
-/Users/vheuschling/WORK/akka-playground/main.scala -> Future
-/Users/vheuschling/WORK/akka-playground/main.scala -> Main
-/Users/vheuschling/WORK/akka-playground/main.scala -> Msg
-/Users/vheuschling/WORK/akka-playground/main.scala -> None
-/Users/vheuschling/WORK/akka-playground/main.scala -> Predef
-/Users/vheuschling/WORK/akka-playground/main.scala -> Product
-/Users/vheuschling/WORK/akka-playground/main.scala -> Props
-/Users/vheuschling/WORK/akka-playground/main.scala -> Random
-/Users/vheuschling/WORK/akka-playground/main.scala -> ScalaRunTime
-/Users/vheuschling/WORK/akka-playground/main.scala -> SecondActor
-/Users/vheuschling/WORK/akka-playground/main.scala -> Serializable
-/Users/vheuschling/WORK/akka-playground/main.scala -> StopMsg
-/Users/vheuschling/WORK/akka-playground/main.scala -> String
-/Users/vheuschling/WORK/akka-playground/main.scala -> StringContext
-/Users/vheuschling/WORK/akka-playground/main.scala -> Thread
-/Users/vheuschling/WORK/akka-playground/main.scala -> Timeout
-/Users/vheuschling/WORK/akka-playground/main.scala -> _hashCode
-/Users/vheuschling/WORK/akka-playground/main.scala -> _toString
-/Users/vheuschling/WORK/akka-playground/main.scala -> actor
-/Users/vheuschling/WORK/akka-playground/main.scala -> actorOf
-/Users/vheuschling/WORK/akka-playground/main.scala -> actorRef2Scala
-/Users/vheuschling/WORK/akka-playground/main.scala -> akka
-/Users/vheuschling/WORK/akka-playground/main.scala -> apply
-/Users/vheuschling/WORK/akka-playground/main.scala -> asInstanceOf
-/Users/vheuschling/WORK/akka-playground/main.scala -> ask
-/Users/vheuschling/WORK/akka-playground/main.scala -> concurrent
-/Users/vheuschling/WORK/akka-playground/main.scala -> context
-/Users/vheuschling/WORK/akka-playground/main.scala -> duration
-/Users/vheuschling/WORK/akka-playground/main.scala -> eq
-/Users/vheuschling/WORK/akka-playground/main.scala -> firstActor
-/Users/vheuschling/WORK/akka-playground/main.scala -> foreach
-/Users/vheuschling/WORK/akka-playground/main.scala -> future
-/Users/vheuschling/WORK/akka-playground/main.scala -> i
-/Users/vheuschling/WORK/akka-playground/main.scala -> intWrapper
-/Users/vheuschling/WORK/akka-playground/main.scala -> isInstanceOf
-/Users/vheuschling/WORK/akka-playground/main.scala -> java
-/Users/vheuschling/WORK/akka-playground/main.scala -> lang
-/Users/vheuschling/WORK/akka-playground/main.scala -> materializeClassTag
-/Users/vheuschling/WORK/akka-playground/main.scala -> nextInt
-/Users/vheuschling/WORK/akka-playground/main.scala -> nextStage
-/Users/vheuschling/WORK/akka-playground/main.scala -> package
-/Users/vheuschling/WORK/akka-playground/main.scala -> pattern
-/Users/vheuschling/WORK/akka-playground/main.scala -> println
-/Users/vheuschling/WORK/akka-playground/main.scala -> qual$1
-/Users/vheuschling/WORK/akka-playground/main.scala -> result
-/Users/vheuschling/WORK/akka-playground/main.scala -> runtime
-/Users/vheuschling/WORK/akka-playground/main.scala -> s
-/Users/vheuschling/WORK/akka-playground/main.scala -> scala
-/Users/vheuschling/WORK/akka-playground/main.scala -> seconds
-/Users/vheuschling/WORK/akka-playground/main.scala -> self
-/Users/vheuschling/WORK/akka-playground/main.scala -> sender
-/Users/vheuschling/WORK/akka-playground/main.scala -> shutdown
-/Users/vheuschling/WORK/akka-playground/main.scala -> sleep
-/Users/vheuschling/WORK/akka-playground/main.scala -> stop
-/Users/vheuschling/WORK/akka-playground/main.scala -> system
-/Users/vheuschling/WORK/akka-playground/main.scala -> t
-/Users/vheuschling/WORK/akka-playground/main.scala -> text
-/Users/vheuschling/WORK/akka-playground/main.scala -> timeout
-/Users/vheuschling/WORK/akka-playground/main.scala -> to
-/Users/vheuschling/WORK/akka-playground/main.scala -> toLong
-/Users/vheuschling/WORK/akka-playground/main.scala -> toString
-/Users/vheuschling/WORK/akka-playground/main.scala -> typedProductIterator
-/Users/vheuschling/WORK/akka-playground/main.scala -> unchecked
-/Users/vheuschling/WORK/akka-playground/main.scala -> util
-/Users/vheuschling/WORK/akka-playground/main.scala -> x$1
-/Users/vheuschling/WORK/akka-playground/main.scala -> x$2
-/Users/vheuschling/WORK/akka-playground/main.scala -> ||
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> !
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> &&
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> <init>
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ==
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> A1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> AbstractFunction1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Actor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ActorSystem
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> App
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Await
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> B1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ClassTag
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> FirstActor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Function1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Future
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Main
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Msg
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> None
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Predef
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Product
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Props
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Random
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ScalaRunTime
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> SecondActor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Serializable
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> StopMsg
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> String
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> StringContext
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Thread
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> Timeout
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> _hashCode
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> _toString
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> actor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> actorOf
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> actorRef2Scala
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> akka
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> apply
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> asInstanceOf
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ask
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> concurrent
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> context
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> duration
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> eq
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> firstActor
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> foreach
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> i
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> intWrapper
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> isInstanceOf
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> java
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> lang
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> materializeClassTag
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> nextInt
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> nextStage
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> package
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> pattern
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> println
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> qual$1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> qual$2
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> runtime
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> s
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> scala
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> seconds
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> self
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> sender
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> shutdown
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> sleep
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> stop
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> system
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> t
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> text
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> timeout
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> to
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> toLong
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> toString
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> typedProductIterator
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> unchecked
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> util
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> x$1
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> x$2
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> x$3
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> x$4
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> ||
 product stamps:
 12 items
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor$$anonfun$receive$1.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$$anonfun$1.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$delayedInit$body.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg$.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor$$anonfun$receive$2.class -> lastModified(1459105249000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor.class -> lastModified(1459105248000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg$.class -> lastModified(1459105249000)
-/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg.class -> lastModified(1459105249000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/FirstActor$$anonfun$receive$1.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/FirstActor.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$$anonfun$1.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main$delayedInit$body.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Main.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Msg$.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/Msg.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/SecondActor$$anonfun$receive$2.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/SecondActor.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/StopMsg$.class -> lastModified(1459196348000)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/target/scala-2.11/classes/StopMsg.class -> lastModified(1459196348000)
 source stamps:
 1 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> hash(d69b2cc1f4b925a6f1eb8a09b055164b047538d4)
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> hash(ed815d521f254efa1b3d59efc2f9fd76add15498)
 binary stamps:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444172124000)
@@ -180,16 +180,16 @@ class names:
 /Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.runtime.AbstractFunction1
 internal apis:
 1 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD050i2AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw/KJGGnQABHNlbGZzcQB+AAtwZ9KhdAAHdGltZW91dHNxAH4AC732LZJ0AAdjb250ZXh0dXEAfgAJAAAAN3NxAH4AC6CXWXV0AAZub3RpZnlzcQB+AAuPN+hAdAAKZmlyc3RBY3RvcnNxAH4ACzPjr3R0AAdSZWNlaXZlc3EAfgALJWZQeHQACW5leHRTdGFnZXNxAH4ACwaOGsN0AAR3YWl0c3EAfgALnNOM93QADSRhc0luc3RhbmNlT2ZzcQB+AAu9A245dAAGc3lzdGVtc3EAfgALsh/jn3QADHByb2R1Y3RBcml0eXNxAH4AC6/xsKV0AAZlcXVhbHNzcQB+AAsoxs3vdAAKRmlyc3RBY3RvcnNxAH4ACy68DG90AAxhc0luc3RhbmNlT2ZzcQB+AAvyefQMdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAs9EfVvdAAHU3RvcE1zZ3NxAH4AC+ayW0N0AAxzeW5jaHJvbml6ZWRzcQB+AAtaZUk6dAANJGlzSW5zdGFuY2VPZnNxAH4AC9a8JXh0AAdyZWNlaXZlc3EAfgALbH7S+nQACnByZVJlc3RhcnRzcQB+AAtNM2wFdAANYXJvdW5kUmVjZWl2ZXNxAH4AC7ot4YJ0AAR0ZXh0c3EAfgALGg25g3QACGNhbkVxdWFsc3EAfgALi2eNJ3QAC3Bvc3RSZXN0YXJ0c3EAfgALni3Ks3QABG1haW5zcQB+AAs8owqedAAIcG9zdFN0b3BzcQB+AAu2i0g6dAANcHJvZHVjdFByZWZpeHNxAH4ACy7ZmH90AAlub3RpZnlBbGxzcQB+AAt//u75dAALcmVhZFJlc29sdmVzcQB+AAscDTDFdAADTXNnc3EAfgALG8J0aHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgAL8EYI+HQAC1NlY29uZEFjdG9yc3EAfgALMxX1wHQADGlzSW5zdGFuY2VPZnNxAH4ACxDSD+d0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgAL4CqNJXQADmFyb3VuZFBvc3RTdG9wc3EAfgALaFmArXQABjxpbml0PnNxAH4AC4UQuCl0AAhwcmVTdGFydHNxAH4ACxTrZ050AAl1bmhhbmRsZWRzcQB+AAtqZWvmdAACPT1zcQB+AAsGA6VIdAAFY2xvbmVzcQB+AAuWNLq9dAAEY29weXNxAH4AC9CWB7B0AAZzZW5kZXJzcQB+AAt9+amSdAAETWFpbnNxAH4ACyeESrh0AAh0b1N0cmluZ3NxAH4AC0EFGbB0AARhcmdzc3EAfgALI9aAXXQAAiE9c3EAfgALp04cn3QACGdldENsYXNzc3EAfgALa7GUJ3QADmNvcHkkZGVmYXVsdCQxc3EAfgALwE8I3HQAAm5lc3EAfgALB8cPbXQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC7jb01F0AAJlcXNxAH4ACxVpVF10AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAsRf3crdAALZGVsYXllZEluaXRzcQB+AAvSvfdhdAACIyNzcQB+AAv2zrg5dAAIZmluYWxpemVzcQB+AAt1S7i0dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAuuu4tBdAAIaGFzaENvZGVzcQB+AAujtzH8dAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAFc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AKIBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AItMAAlpbmhlcml0ZWRxAH4Ai0wAB3BhcmVudHNxAH4Ai3hxAH4AqXNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKh0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMJzcQB+ALVxAH4AuHNxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMF0AARqYXZhc3EAfgDBdAACaW9xAH4AxnNxAH4AtXQAB1Byb2R1Y3RxAH4Au3NxAH4AtXQABkVxdWFsc3EAfgC7c3EAfgC1dAAGT2JqZWN0c3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDMc3EAfgDBdAAEbGFuZ3EAfgDGc3EAfgC1dAADQW55cQB+ALtwcHNxAH4AiHEAfgCVdXEAfgCWAAAAAHNxAH4AmABxAH4ASXVxAH4AmgAAAAB+cQB+AJx0AAhDbGFzc0RlZnVxAH4AoAAAAABzcQB+AKIBcQB+AKpwc3EAfgCiAXNxAH4ArHNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cQB+ALMAAAAGc3EAfgC1cQB+ALhzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBcQB+AMRxAH4AxnNxAH4AtXEAfgC4c3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDMc3EAfgDBdAACaW9xAH4AxnNxAH4AtXEAfgDQcQB+AO5zcQB+ALV0AAZFcXVhbHNxAH4A7nNxAH4AtXEAfgDUc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDMc3EAfgDBcQB+ANpxAH4AxnNxAH4AtXEAfgDccQB+AO5wcHNxAH4AiHEAfgCVdXEAfgCWAAAAAHNxAH4AmABxAH4AJ3VxAH4AmgAAAABxAH4A4XVxAH4AoAAAAABzcQB+AKIBcQB+AKpwc3EAfgCiAXNxAH4ArHNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cQB+AIYAAAAAcHNxAH4AogF1cQB+ALMAAAADc3EAfgC1dAAFQWN0b3JzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBdAAEYWtrYXNxAH4AwXQABWFjdG9ycQB+AMZzcQB+ALVxAH4A1HNxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMFxAH4AzHNxAH4AwXEAfgDacQB+AMZzcQB+ALVxAH4A3HNxAH4AuXNxAH4AvHVxAH4AvwAAAAJzcQB+AMFxAH4AxHEAfgDGcHBzcQB+AIhxAH4AlXVxAH4AlgAAAABzcQB+AJgAcQB+AE11cQB+AJoAAAAAcQB+AOF1cQB+AKAAAAAAc3EAfgCiAXEAfgCqcHNxAH4AogFzcQB+AKxzcQB+AKIBdXEAfgCGAAAAAHBzcQB+AKIBdXEAfgCGAAAAAHBzcQB+AKIBdXEAfgCzAAAAA3NxAH4AtXQABUFjdG9yc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXQABGFra2FzcQB+AMF0AAVhY3RvcnEAfgDGc3EAfgC1cQB+ANRzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBcQB+AMxzcQB+AMFxAH4A2nEAfgDGc3EAfgC1cQB+ANxzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBcQB+AMRxAH4AxnBwc3EAfgCIcQB+AJV1cQB+AJYAAAAAc3EAfgCYAHEAfgBjdXEAfgCaAAAAAHEAfgCedXEAfgCgAAAAAnQAEHNjYWxhLmRlcHJlY2F0ZWR0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AogFxAH4AqnBzcQB+AKIBc3EAfgCsc3EAfgCiAXVxAH4AhgAAAABwc3EAfgCiAXVxAH4AhgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AjHEAfgCVdXEAfgCWAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4BVnhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AAxMAAV2YWx1ZXEAfgAMeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+ALV0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AuXNxAH4AvHVxAH4AvwAAAAJzcQB+AMFxAH4AxHEAfgDGc3EAfgCYAHEAfgA/dXEAfgCaAAAAAHNxAH4AtXQABFVuaXRxAH4BZXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AVZ4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AJ10AAVQbGFpbnEAfgBnc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgC2WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCoc3EAfgC1dAAFQXJyYXlxAH4BZXVxAH4AswAAAAFzcQB+ALV0AAZTdHJpbmdzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBcQB+AMxzcQB+AMFxAH4A2nEAfgDGcHNxAH4AogF1cQB+ALMAAAAEc3EAfgC1dAADQXBwcQB+AWVzcQB+ALV0AAtEZWxheWVkSW5pdHEAfgFlc3EAfgC1cQB+ANRxAH4BgnNxAH4AtXEAfgDccQB+AWVwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTuXMgvHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEEvVXNlcnMvdmhldXNjaGxpbmcvV09SSy9ha2thLXBsYXlncm91bmQvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNabLMH0uSWm8euKCbBVFksEdTjU
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAMJ4QiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw/KJGGnQABHNlbGZzcQB+AAulslTcdAAHdGltZW91dHNxAH4AC732LZJ0AAdjb250ZXh0dXEAfgAJAAAAN3NxAH4AC6CXWXV0AAZub3RpZnlzcQB+AAuPN+hAdAAKZmlyc3RBY3RvcnNxAH4ACzPjr3R0AAdSZWNlaXZlc3EAfgALJWZQeHQACW5leHRTdGFnZXNxAH4ACwaOGsN0AAR3YWl0c3EAfgALnNOM93QADSRhc0luc3RhbmNlT2ZzcQB+AAu9A245dAAGc3lzdGVtc3EAfgALsh/jn3QADHByb2R1Y3RBcml0eXNxAH4AC6/xsKV0AAZlcXVhbHNzcQB+AAsoxs3vdAAKRmlyc3RBY3RvcnNxAH4ACy68DG90AAxhc0luc3RhbmNlT2ZzcQB+AAvyefQMdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAs9EfVvdAAHU3RvcE1zZ3NxAH4AC+ayW0N0AAxzeW5jaHJvbml6ZWRzcQB+AAtaZUk6dAANJGlzSW5zdGFuY2VPZnNxAH4AC9a8JXh0AAdyZWNlaXZlc3EAfgALbH7S+nQACnByZVJlc3RhcnRzcQB+AAtNM2wFdAANYXJvdW5kUmVjZWl2ZXNxAH4AC7ot4YJ0AAR0ZXh0c3EAfgALGg25g3QACGNhbkVxdWFsc3EAfgALi2eNJ3QAC3Bvc3RSZXN0YXJ0c3EAfgALni3Ks3QABG1haW5zcQB+AAs8owqedAAIcG9zdFN0b3BzcQB+AAu2i0g6dAANcHJvZHVjdFByZWZpeHNxAH4ACy7ZmH90AAlub3RpZnlBbGxzcQB+AAt//u75dAALcmVhZFJlc29sdmVzcQB+AAscDTDFdAADTXNnc3EAfgALG8J0aHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgAL8EYI+HQAC1NlY29uZEFjdG9yc3EAfgALMxX1wHQADGlzSW5zdGFuY2VPZnNxAH4ACxDSD+d0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgAL4CqNJXQADmFyb3VuZFBvc3RTdG9wc3EAfgALaFmArXQABjxpbml0PnNxAH4AC4UQuCl0AAhwcmVTdGFydHNxAH4ACxTrZ050AAl1bmhhbmRsZWRzcQB+AAtqZWvmdAACPT1zcQB+AAsGA6VIdAAFY2xvbmVzcQB+AAuWNLq9dAAEY29weXNxAH4AC9CWB7B0AAZzZW5kZXJzcQB+AAt9+amSdAAETWFpbnNxAH4ACyeESrh0AAh0b1N0cmluZ3NxAH4AC0EFGbB0AARhcmdzc3EAfgALI9aAXXQAAiE9c3EAfgALp04cn3QACGdldENsYXNzc3EAfgALa7GUJ3QADmNvcHkkZGVmYXVsdCQxc3EAfgALwE8I3HQAAm5lc3EAfgALB8cPbXQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC7jb01F0AAJlcXNxAH4ACxVpVF10AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAsRf3crdAALZGVsYXllZEluaXRzcQB+AAvSvfdhdAACIyNzcQB+AAv2zrg5dAAIZmluYWxpemVzcQB+AAt1S7i0dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAuuu4tBdAAIaGFzaENvZGVzcQB+AAujtzH8dAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAFc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AC11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCjeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCiAHBzcQB+AKdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ai0wACWluaGVyaXRlZHEAfgCLTAAHcGFyZW50c3EAfgCLeHEAfgCrc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKp0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMhzcQB+ALtxAH4AvnNxAH4Av3NxAH4AwnVxAH4AxQAAAANzcQB+AMd0AARqYXZhc3EAfgDHdAACaW9xAH4AzHNxAH4Au3QAB1Byb2R1Y3RxAH4AwXNxAH4Au3QABkVxdWFsc3EAfgDBc3EAfgC7dAAGT2JqZWN0c3EAfgC/c3EAfgDCdXEAfgDFAAAAA3NxAH4Ax3EAfgDSc3EAfgDHdAAEbGFuZ3EAfgDMc3EAfgC7dAADQW55cQB+AMFzcQB+AIhxAH4AlXVxAH4AlgAAAABzcQB+AJgAcQB+AEl1cQB+AJoAAAAAfnEAfgCcdAAIQ2xhc3NEZWZ1cQB+AKAAAAAAc3EAfgCiAHBzcQB+AKdxAH4ArHNxAH4AogBwc3EAfgCnc3EAfgCvc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cQB+ALkAAAAGc3EAfgC7cQB+AL5zcQB+AL9zcQB+AMJ1cQB+AMUAAAACc3EAfgDHcQB+AMpxAH4AzHNxAH4Au3EAfgC+c3EAfgC/c3EAfgDCdXEAfgDFAAAAA3NxAH4Ax3EAfgDSc3EAfgDHdAACaW9xAH4AzHNxAH4Au3EAfgDWcQB+APlzcQB+ALt0AAZFcXVhbHNxAH4A+XNxAH4Au3EAfgDac3EAfgC/c3EAfgDCdXEAfgDFAAAAA3NxAH4Ax3EAfgDSc3EAfgDHcQB+AOBxAH4AzHNxAH4Au3EAfgDicQB+APlzcQB+AIhxAH4AlXVxAH4AlgAAAABzcQB+AJgAcQB+ACd1cQB+AJoAAAAAcQB+AOd1cQB+AKAAAAAAc3EAfgCiAHBzcQB+AKdxAH4ArHNxAH4AogBwc3EAfgCnc3EAfgCvc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cQB+AIYAAAAAc3EAfgCiAHBzcQB+AKd1cQB+ALkAAAADc3EAfgC7dAAFQWN0b3JzcQB+AL9zcQB+AMJ1cQB+AMUAAAADc3EAfgDHdAAEYWtrYXNxAH4Ax3QABWFjdG9ycQB+AMxzcQB+ALtxAH4A2nNxAH4Av3NxAH4AwnVxAH4AxQAAAANzcQB+AMdxAH4A0nNxAH4Ax3EAfgDgcQB+AMxzcQB+ALtxAH4A4nNxAH4Av3NxAH4AwnVxAH4AxQAAAAJzcQB+AMdxAH4AynEAfgDMc3EAfgCIcQB+AJV1cQB+AJYAAAAAc3EAfgCYAHEAfgBNdXEAfgCaAAAAAHEAfgDndXEAfgCgAAAAAHNxAH4AogBwc3EAfgCncQB+AKxzcQB+AKIAcHNxAH4Ap3NxAH4Ar3NxAH4AogBwc3EAfgCndXEAfgCGAAAAAHNxAH4AogBwc3EAfgCndXEAfgCGAAAAAHNxAH4AogBwc3EAfgCndXEAfgC5AAAAA3NxAH4Au3QABUFjdG9yc3EAfgC/c3EAfgDCdXEAfgDFAAAAA3NxAH4Ax3QABGFra2FzcQB+AMd0AAVhY3RvcnEAfgDMc3EAfgC7cQB+ANpzcQB+AL9zcQB+AMJ1cQB+AMUAAAADc3EAfgDHcQB+ANJzcQB+AMdxAH4A4HEAfgDMc3EAfgC7cQB+AOJzcQB+AL9zcQB+AMJ1cQB+AMUAAAACc3EAfgDHcQB+AMpxAH4AzHNxAH4AiHEAfgCVdXEAfgCWAAAAAHNxAH4AmABxAH4AY3VxAH4AmgAAAABxAH4AnnVxAH4AoAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AKIAcHNxAH4Ap3EAfgCsc3EAfgCiAHBzcQB+AKdzcQB+AK9zcQB+AKIAcHNxAH4Ap3VxAH4AhgAAAABzcQB+AKIAcHNxAH4Ap3VxAH4AhgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AjHEAfgCVdXEAfgCWAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4Bb3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AAxMAAV2YWx1ZXEAfgAMeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+ALt0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4Av3NxAH4AwnVxAH4AxQAAAAJzcQB+AMdxAH4AynEAfgDMc3EAfgCYAHEAfgA/dXEAfgCaAAAAAHNxAH4Au3QABFVuaXRxAH4BfnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AW94cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AJ10AAVQbGFpbnEAfgBnc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgC8WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCqc3EAfgC7dAAFQXJyYXlxAH4BfnVxAH4AuQAAAAFzcQB+ALt0AAZTdHJpbmdzcQB+AL9zcQB+AMJ1cQB+AMUAAAADc3EAfgDHcQB+ANJzcQB+AMdxAH4A4HEAfgDMc3EAfgCiAHBzcQB+AKd1cQB+ALkAAAAEc3EAfgC7dAADQXBwcQB+AX5zcQB+ALt0AAtEZWxheWVkSW5pdHEAfgF+c3EAfgC7cQB+ANpxAH4Bm3NxAH4Au3EAfgDicQB+AX51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU77hMEF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABXL1VzZXJzL3ZoZXVzY2hsaW5nL1dPUksvYWtrYS1wbGF5Z3JvdW5kL3N0ZXA1LWNoYWluaW5nLWFjdG9ycy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU7YFdUh8lTvobPVnvwvn9dq3RVJg=
 external apis:
 0 items
 source infos:
 1 items
-/Users/vheuschling/WORK/akka-playground/main.scala -> 
+/Users/vheuschling/WORK/akka-playground/step5-chaining-actors/main.scala -> 
 AAAAAAAAAAA=
 compilations:
-55 items
+56 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT8Cp+iR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT8Cx78N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT8CzZpV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -245,3 +245,4 @@ compilations:
 52 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU7lrhih1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 53 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU7lwBpV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 54 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU7lzILx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+55 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU77hMEF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwNS1jaGFpbmluZy1hY3RvcnMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

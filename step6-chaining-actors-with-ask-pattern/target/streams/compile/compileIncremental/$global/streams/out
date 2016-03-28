@@ -1,31 +1,45 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	removed:Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$$anonfun$1.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Msg$.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$delayedInit$body.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/StopMsg$.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/FirstActor$$anonfun$receive$1.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor$$anonfun$receive$2.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/SecondActor.class, /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes/Main$.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/vheuschling/WORK/akka-playground/main.scala, /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/vheuschling/WORK/akka-playground/main.scala, /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 4d6adfee, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler f451e75, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes:/Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/vheuschling/WORK/akka-playground/target/scala-2.11/classes:/Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar:/Users/vheuschling/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/target/scala-2.11/classes:/Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar:/Users/vheuschling/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[33mwarn[0m] [0mthere were two feature warnings; re-run with -feature for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 5.70092655 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 5.606325816 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/vheuschling/WORK/akka-playground/step6-chaining-actors-with-ask-pattern/main.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/vheuschling/WORK/akka-playground/main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/vheuschling/WORK/akka-playground/main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/vheuschling/WORK/akka-playground/main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/vheuschling/WORK/akka-playground/main.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
