@@ -7,7 +7,6 @@ import akka.routing.{ ActorRefRoutee, RoundRobinRouter, Router }
 
 
 case class Msg(text : String)
-// case class Response(text : String)
 
 class FirstActor() extends Actor {
   val nextStage = context.actorOf(Props[SecondActor])
