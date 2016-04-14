@@ -3,7 +3,7 @@ import scala.concurrent.Await
 import scala.concurrent.Future
 import akka.util.Timeout
 import scala.concurrent.duration._
-import akka.routing.{ ActorRefRoutee, RoundRobinRouter, Router }
+import akka.routing._
 
 
 case class Msg(text : String)

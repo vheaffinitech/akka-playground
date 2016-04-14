@@ -1,0 +1,100 @@
+[0m[[0minfo[0m] [0mRunning SimpleClusterApp [0m
+[0m[[0minfo[0m] [0m[ERROR] [04/14/2016 10:11:23.761] [ClusterSystem-akka.actor.default-dispatcher-2] [akka://ClusterSystem/user/clusterListener] ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0makka.actor.ActorInitializationException: akka://ClusterSystem/user/clusterListener: exception during creation[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorInitializationException$.apply(Actor.scala:174)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:606)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:461)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:483)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:223)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0mCaused by: akka.ConfigurationException: ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster.<init>(Cluster.scala:71)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:34)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:755)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ExtensionId$class.apply(Extension.scala:79)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.apply(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at SimpleClusterListener.<init>(main.scala:34)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
+[0m[[0minfo[0m] [0m	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)[0m
+[0m[[0minfo[0m] [0m	at java.lang.Class.newInstance(Class.java:442)[0m
+[0m[[0minfo[0m] [0m	at akka.util.Reflect$.instantiate(Reflect.scala:44)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.NoArgsReflectConstructor.produce(IndirectActorProducer.scala:105)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Props.newActor(Props.scala:213)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.newActor(ActorCell.scala:562)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:588)[0m
+[0m[[0minfo[0m] [0m	... 9 more[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[ERROR] [04/14/2016 10:11:23.761] [ClusterSystem-akka.actor.default-dispatcher-4] [akka://ClusterSystem/user/clusterListener] ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0makka.actor.ActorInitializationException: akka://ClusterSystem/user/clusterListener: exception during creation[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorInitializationException$.apply(Actor.scala:174)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:606)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:461)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:483)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:223)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0mCaused by: akka.ConfigurationException: ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster.<init>(Cluster.scala:71)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:34)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:755)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ExtensionId$class.apply(Extension.scala:79)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.apply(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at SimpleClusterListener.<init>(main.scala:34)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
+[0m[[0minfo[0m] [0m	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)[0m
+[0m[[0minfo[0m] [0m	at java.lang.Class.newInstance(Class.java:442)[0m
+[0m[[0minfo[0m] [0m	at akka.util.Reflect$.instantiate(Reflect.scala:44)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.NoArgsReflectConstructor.produce(IndirectActorProducer.scala:105)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Props.newActor(Props.scala:213)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.newActor(ActorCell.scala:562)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:588)[0m
+[0m[[0minfo[0m] [0m	... 9 more[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[ERROR] [04/14/2016 10:11:23.798] [ClusterSystem-akka.actor.default-dispatcher-3] [akka://ClusterSystem/user/clusterListener] ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0makka.actor.ActorInitializationException: akka://ClusterSystem/user/clusterListener: exception during creation[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorInitializationException$.apply(Actor.scala:174)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:606)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:461)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:483)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:282)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:223)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0mCaused by: akka.ConfigurationException: ActorSystem [akka://ClusterSystem] needs to have a 'ClusterActorRefProvider' enabled in the configuration, currently uses [akka.actor.LocalActorRefProvider][0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster.<init>(Cluster.scala:71)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:34)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.createExtension(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:755)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ExtensionId$class.apply(Extension.scala:79)[0m
+[0m[[0minfo[0m] [0m	at akka.cluster.Cluster$.apply(Cluster.scala:29)[0m
+[0m[[0minfo[0m] [0m	at SimpleClusterListener.<init>(main.scala:34)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m
+[0m[[0minfo[0m] [0m	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
+[0m[[0minfo[0m] [0m	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)[0m
+[0m[[0minfo[0m] [0m	at java.lang.Class.newInstance(Class.java:442)[0m
+[0m[[0minfo[0m] [0m	at akka.util.Reflect$.instantiate(Reflect.scala:44)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.NoArgsReflectConstructor.produce(IndirectActorProducer.scala:105)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Props.newActor(Props.scala:213)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.newActor(ActorCell.scala:562)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.create(ActorCell.scala:588)[0m
+[0m[[0minfo[0m] [0m	... 9 more[0m
+[0m[[0minfo[0m] [0m[0m
