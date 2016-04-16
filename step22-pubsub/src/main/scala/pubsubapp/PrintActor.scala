@@ -19,5 +19,4 @@ class PrintActor extends Actor {
     case MsgAvg(i) =>
       println(s"Current average : $i")
   }
-
 }
