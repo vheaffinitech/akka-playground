@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes
+output dir -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes
 compile options:
 0 items
 javac options:
@@ -20,20 +20,20 @@ name hashing:
 0 -> true
 products:
 9 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteActor$$anonfun$receive$1.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteActor.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer$.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer$delayedInit$body.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/Test$.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/Test.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/testRemoteActor$$anonfun$receive$2.class
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/testRemoteActor.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteActor$$anonfun$receive$1.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteActor.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer$.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer$delayedInit$body.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/Test$.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/Test.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/testRemoteActor$$anonfun$receive$2.class
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/testRemoteActor.class
 binary dependencies:
 3 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.3.jar
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> /Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.3.jar
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> /Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -52,92 +52,92 @@ inheritance external dependencies:
 0 items
 class names:
 9 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteActor$$anonfun$receive$1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteServer
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteServer$
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteServer$delayedInit$body
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Test
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Test$
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> testRemoteActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> testRemoteActor$$anonfun$receive$2
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteActor$$anonfun$receive$1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteServer
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteServer$
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteServer$delayedInit$body
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Test
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Test$
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> testRemoteActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> testRemoteActor$$anonfun$receive$2
 used names:
 61 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> !
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> &&
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> <init>
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> ==
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> A1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> AbstractFunction1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Actor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> ActorSystem
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> App
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> B1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> ClassTag
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Function1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> None
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Predef
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Product
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Props
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> RemoteServer
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> ScalaRunTime
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Serializable
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> String
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> StringContext
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Test
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> Thread
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> _hashCode
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> _toString
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> actor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> actorOf
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> actorRef2Scala
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> actorSelection
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> akka
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> apply
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> asInstanceOf
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> context
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> eq
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> isInstanceOf
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> java
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> lang
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> materializeClassTag
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> package
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> println
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> qual$1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> remoteActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> runtime
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> s
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> scala
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> selection
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> self
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> sender
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> shutdown
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> sleep
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> system
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> testActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> testRemoteActor
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> text
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> toString
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> typedProductIterator
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> unchecked
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> x$1
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> x$2
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> ||
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> !
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> &&
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> <init>
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> ==
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> A1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> AbstractFunction1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Actor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> ActorSystem
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> App
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> B1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> ClassTag
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Function1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> None
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Predef
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Product
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Props
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> RemoteServer
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> ScalaRunTime
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Serializable
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> String
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> StringContext
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Test
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> Thread
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> _hashCode
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> _toString
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> actor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> actorOf
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> actorRef2Scala
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> actorSelection
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> akka
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> apply
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> asInstanceOf
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> context
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> eq
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> isInstanceOf
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> java
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> lang
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> materializeClassTag
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> package
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> println
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> qual$1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> remoteActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> runtime
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> s
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> scala
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> selection
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> self
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> sender
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> shutdown
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> sleep
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> system
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> testActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> testRemoteActor
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> text
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> toString
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> typedProductIterator
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> unchecked
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> x$1
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> x$2
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> ||
 product stamps:
 9 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteActor$$anonfun$receive$1.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteActor.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer$.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer$delayedInit$body.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/RemoteServer.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/Test$.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/Test.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/testRemoteActor$$anonfun$receive$2.class -> lastModified(1460662052000)
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/target/scala-2.11/classes/testRemoteActor.class -> lastModified(1460662052000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteActor$$anonfun$receive$1.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteActor.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer$.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer$delayedInit$body.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/RemoteServer.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/Test$.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/Test.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/testRemoteActor$$anonfun$receive$2.class -> lastModified(1461829895000)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/target/scala-2.11/classes/testRemoteActor.class -> lastModified(1461829895000)
 source stamps:
 1 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> hash(1c3a0dfa874e44c04962f772c2a254e4c093a305)
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> hash(1c3a0dfa874e44c04962f772c2a254e4c093a305)
 binary stamps:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444172124000)
@@ -147,19 +147,19 @@ class names:
 3 items
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
 /Users/vheuschling/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.3.jar -> akka.actor.Actor
-/Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.App
+/Users/vheuschling/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.runtime.AbstractFunction1
 internal apis:
 1 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCq9R5RAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwXoBtIHQABHNlbGZzcQB+AAuzfGZtdAAHY29udGV4dHVxAH4ACQAAADVzcQB+AAteLOGXdAAGbm90aWZ5c3EAfgALy3QVFHQADFJlbW90ZVNlcnZlcnNxAH4AC14pZFt0AAdSZWNlaXZlc3EAfgAL3D0vYHQABHdhaXRzcQB+AAtTCprNdAANJGFzSW5zdGFuY2VPZnNxAH4ACySRHb50AAZzeXN0ZW1zcQB+AAvNv1WddAAPdGVzdFJlbW90ZUFjdG9yc3EAfgAL+ZmYR3QADHByb2R1Y3RBcml0eXNxAH4AC2qrdbV0AAZlcXVhbHNzcQB+AAunBSSadAAMYXNJbnN0YW5jZU9mc3EAfgALjA2z23QADmV4ZWN1dGlvblN0YXJ0c3EAfgALeVEgCnQADHN5bmNocm9uaXplZHNxAH4AC9YYe050AA0kaXNJbnN0YW5jZU9mc3EAfgALbLyOZHQAB3JlY2VpdmVzcQB+AAvTHAlodAAKcHJlUmVzdGFydHNxAH4AC+HUk0t0AA1hcm91bmRSZWNlaXZlc3EAfgALvsku93QABHRleHRzcQB+AAslg/TAdAAIY2FuRXF1YWxzcQB+AAusPIAcdAALcG9zdFJlc3RhcnRzcQB+AAt6I+w9dAAEbWFpbnNxAH4ACzjYmXd0AAhwb3N0U3RvcHNxAH4AC+AaZAB0AA1wcm9kdWN0UHJlZml4c3EAfgALY/X4g3QAC1JlbW90ZUFjdG9yc3EAfgALTP8u8nQACW5vdGlmeUFsbHNxAH4ACwUClPF0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC+Pc0fp0AAxpc0luc3RhbmNlT2ZzcQB+AAsYM0/adAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACwXgjol0AA5hcm91bmRQb3N0U3RvcHNxAH4AC8bYZpp0AAY8aW5pdD5zcQB+AAvL2YqrdAAIcHJlU3RhcnRzcQB+AAuNGab8dAAJdW5oYW5kbGVkc3EAfgALN67DqHQAAj09c3EAfgALh5IUuHQABWNsb25lc3EAfgAL239Pe3QACXRlc3RBY3RvcnNxAH4AC/Vb++t0AARjb3B5c3EAfgAL4QzuVHQABFRlc3RzcQB+AAu1Aw/hdAAGc2VuZGVyc3EAfgALryAdZHQACHRvU3RyaW5nc3EAfgALuGugG3QABGFyZ3NzcQB+AAsWjUdrdAACIT1zcQB+AAt3il5IdAAIZ2V0Q2xhc3NzcQB+AAtSkdXgdAAOY29weSRkZWZhdWx0JDFzcQB+AAtIvZ0bdAACbmVzcQB+AAs6pR9MdAALcmVtb3RlQWN0b3JzcQB+AAvV/trOdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALOMxZ5HQAAmVxc3EAfgALsp+tWnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC0/20St0AAtkZWxheWVkSW5pdHNxAH4AC4Gr7OJ0AAIjI3NxAH4AC2mHCBR0AAhmaW5hbGl6ZXNxAH4AC0GXsBN0AA5wcm9kdWN0RWxlbWVudHNxAH4AC+hmLaZ0AAhoYXNoQ29kZXNxAH4AC1zXMCd0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AIV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AP3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AnXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AnABwc3EAfgChc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIVMAAlpbmhlcml0ZWRxAH4AhUwAB3BhcmVudHNxAH4AhXhxAH4ApXNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCkdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AMF0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDCc3EAfgC1dAAGT2JqZWN0c3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXQABGphdmFzcQB+AMF0AARsYW5ncQB+AMhzcQB+ALV0AANBbnlzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBdAAFc2NhbGFxAH4AyHNxAH4AgnEAfgCPdXEAfgCQAAAAAHNxAH4AkgBxAH4AWXVxAH4AlAAAAABxAH4AmHVxAH4AmgAAAABzcQB+AJwAcHNxAH4AoXEAfgCmc3EAfgCcAHBzcQB+AKFzcQB+AKlzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AswAAAAZzcQB+ALV0AAxTZXJpYWxpemFibGVzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBcQB+ANhxAH4AyHNxAH4AtXEAfgDtc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDPc3EAfgDBdAACaW9xAH4AyHNxAH4AtXQAB1Byb2R1Y3RxAH4A7nNxAH4AtXQABkVxdWFsc3EAfgDuc3EAfgC1cQB+AMpzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBcQB+AM9zcQB+AMFxAH4A0XEAfgDIc3EAfgC1cQB+ANNxAH4A7nNxAH4AgnEAfgCPdXEAfgCQAAAAAHNxAH4AkgBxAH4AH3VxAH4AlAAAAABxAH4AmHVxAH4AmgAAAABzcQB+AJwAcHNxAH4AoXEAfgCmc3EAfgCcAHBzcQB+AKFzcQB+AKlzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AswAAAANzcQB+ALV0AAVBY3RvcnNxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMF0AARha2thc3EAfgDBdAAFYWN0b3JxAH4AyHNxAH4AtXEAfgDKc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDPc3EAfgDBcQB+ANFxAH4AyHNxAH4AtXEAfgDTc3EAfgC5c3EAfgC8dXEAfgC/AAAAAnNxAH4AwXEAfgDYcQB+AMhzcQB+AIJxAH4Aj3VxAH4AkAAAAABzcQB+AJIAcQB+ABV1cQB+AJQAAAAAfnEAfgCWdAAGTW9kdWxldXEAfgCaAAAAAnQAEHNjYWxhLmRlcHJlY2F0ZWR0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AnABwc3EAfgChcQB+AKZzcQB+AJwAcHNxAH4AoXNxAH4AqXNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXEAfgCAAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgCGcQB+AI91cQB+AJAAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgFAeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNxAH4AtXQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3EAfgC5c3EAfgC8dXEAfgC/AAAAAnNxAH4AwXEAfgDYcQB+AMhzcQB+AJIAcQB+ADl1cQB+AJQAAAAAc3EAfgC1dAAEVW5pdHEAfgFPdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4BQHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4Al3QABVBsYWlucQB+AF9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKRzcQB+ALV0AAVBcnJheXEAfgFPdXEAfgCzAAAAAXNxAH4AtXQABlN0cmluZ3NxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMFxAH4Az3NxAH4AwXEAfgDRcQB+AMhzcQB+AJwAcHNxAH4AoXVxAH4AswAAAARzcQB+ALV0AANBcHBxAH4BT3NxAH4AtXQAC0RlbGF5ZWRJbml0cQB+AU9zcQB+ALVxAH4AynEAfgFsc3EAfgC1cQB+ANNxAH4BT3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFUFj4QB3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFgvVXNlcnMvdmhldXNjaGxpbmcvV09SSy9ha2thLXBsYXlncm91bmQvc3RlcDIwLXJlbW90aW5nL3JlbW90ZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUHDoN+odORMBJYvdywqJU5MCTowU=
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCq9R5RAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwXoBtIHQABHNlbGZzcQB+AAuzfGZtdAAHY29udGV4dHVxAH4ACQAAADVzcQB+AAteLOGXdAAGbm90aWZ5c3EAfgALy3QVFHQADFJlbW90ZVNlcnZlcnNxAH4AC14pZFt0AAdSZWNlaXZlc3EAfgAL3D0vYHQABHdhaXRzcQB+AAtTCprNdAANJGFzSW5zdGFuY2VPZnNxAH4ACySRHb50AAZzeXN0ZW1zcQB+AAvNv1WddAAPdGVzdFJlbW90ZUFjdG9yc3EAfgAL+ZmYR3QADHByb2R1Y3RBcml0eXNxAH4AC2qrdbV0AAZlcXVhbHNzcQB+AAunBSSadAAMYXNJbnN0YW5jZU9mc3EAfgALjA2z23QADmV4ZWN1dGlvblN0YXJ0c3EAfgALeVEgCnQADHN5bmNocm9uaXplZHNxAH4AC9YYe050AA0kaXNJbnN0YW5jZU9mc3EAfgALbLyOZHQAB3JlY2VpdmVzcQB+AAvTHAlodAAKcHJlUmVzdGFydHNxAH4AC+HUk0t0AA1hcm91bmRSZWNlaXZlc3EAfgALvsku93QABHRleHRzcQB+AAslg/TAdAAIY2FuRXF1YWxzcQB+AAusPIAcdAALcG9zdFJlc3RhcnRzcQB+AAt6I+w9dAAEbWFpbnNxAH4ACzjYmXd0AAhwb3N0U3RvcHNxAH4AC+AaZAB0AA1wcm9kdWN0UHJlZml4c3EAfgALY/X4g3QAC1JlbW90ZUFjdG9yc3EAfgALTP8u8nQACW5vdGlmeUFsbHNxAH4ACwUClPF0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC+Pc0fp0AAxpc0luc3RhbmNlT2ZzcQB+AAsYM0/adAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACwXgjol0AA5hcm91bmRQb3N0U3RvcHNxAH4AC8bYZpp0AAY8aW5pdD5zcQB+AAvL2YqrdAAIcHJlU3RhcnRzcQB+AAuNGab8dAAJdW5oYW5kbGVkc3EAfgALN67DqHQAAj09c3EAfgALh5IUuHQABWNsb25lc3EAfgAL239Pe3QACXRlc3RBY3RvcnNxAH4AC/Vb++t0AARjb3B5c3EAfgAL4QzuVHQABFRlc3RzcQB+AAu1Aw/hdAAGc2VuZGVyc3EAfgALryAdZHQACHRvU3RyaW5nc3EAfgALuGugG3QABGFyZ3NzcQB+AAsWjUdrdAACIT1zcQB+AAt3il5IdAAIZ2V0Q2xhc3NzcQB+AAtSkdXgdAAOY29weSRkZWZhdWx0JDFzcQB+AAtIvZ0bdAACbmVzcQB+AAs6pR9MdAALcmVtb3RlQWN0b3JzcQB+AAvV/trOdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALOMxZ5HQAAmVxc3EAfgALsp+tWnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC0/20St0AAtkZWxheWVkSW5pdHNxAH4AC4Gr7OJ0AAIjI3NxAH4AC2mHCBR0AAhmaW5hbGl6ZXNxAH4AC0GXsBN0AA5wcm9kdWN0RWxlbWVudHNxAH4AC+hmLaZ0AAhoYXNoQ29kZXNxAH4AC1zXMCd0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AIV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AP3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AnXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AnABwc3EAfgChc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIVMAAlpbmhlcml0ZWRxAH4AhUwAB3BhcmVudHNxAH4AhXhxAH4ApXNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCkdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AMF0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDCc3EAfgC1dAAGT2JqZWN0c3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXQABGphdmFzcQB+AMF0AARsYW5ncQB+AMhzcQB+ALV0AANBbnlzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBdAAFc2NhbGFxAH4AyHNxAH4AgnEAfgCPdXEAfgCQAAAAAHNxAH4AkgBxAH4AWXVxAH4AlAAAAABxAH4AmHVxAH4AmgAAAABzcQB+AJwAcHNxAH4AoXEAfgCmc3EAfgCcAHBzcQB+AKFzcQB+AKlzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AswAAAAZzcQB+ALV0AAxTZXJpYWxpemFibGVzcQB+ALlzcQB+ALx1cQB+AL8AAAACc3EAfgDBcQB+ANhxAH4AyHNxAH4AtXEAfgDtc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDPc3EAfgDBdAACaW9xAH4AyHNxAH4AtXQAB1Byb2R1Y3RxAH4A7nNxAH4AtXQABkVxdWFsc3EAfgDuc3EAfgC1cQB+AMpzcQB+ALlzcQB+ALx1cQB+AL8AAAADc3EAfgDBcQB+AM9zcQB+AMFxAH4A0XEAfgDIc3EAfgC1cQB+ANNxAH4A7nNxAH4AgnEAfgCPdXEAfgCQAAAAAHNxAH4AkgBxAH4AH3VxAH4AlAAAAABxAH4AmHVxAH4AmgAAAABzcQB+AJwAcHNxAH4AoXEAfgCmc3EAfgCcAHBzcQB+AKFzcQB+AKlzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AgAAAAABzcQB+AJwAcHNxAH4AoXVxAH4AswAAAANzcQB+ALV0AAVBY3RvcnNxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMF0AARha2thc3EAfgDBdAAFYWN0b3JxAH4AyHNxAH4AtXEAfgDKc3EAfgC5c3EAfgC8dXEAfgC/AAAAA3NxAH4AwXEAfgDPc3EAfgDBcQB+ANFxAH4AyHNxAH4AtXEAfgDTc3EAfgC5c3EAfgC8dXEAfgC/AAAAAnNxAH4AwXEAfgDYcQB+AMhzcQB+AIJxAH4Aj3VxAH4AkAAAAABzcQB+AJIAcQB+ABV1cQB+AJQAAAAAfnEAfgCWdAAGTW9kdWxldXEAfgCaAAAAAnQAEHNjYWxhLmRlcHJlY2F0ZWR0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AnABwc3EAfgChcQB+AKZzcQB+AJwAcHNxAH4AoXNxAH4AqXNxAH4AnABwc3EAfgChdXEAfgCAAAAAAHNxAH4AnABwc3EAfgChdXEAfgCAAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgCGcQB+AI91cQB+AJAAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgFAeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNxAH4AtXQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3EAfgC5c3EAfgC8dXEAfgC/AAAAAnNxAH4AwXEAfgDYcQB+AMhzcQB+AJIAcQB+ADl1cQB+AJQAAAAAc3EAfgC1dAAEVW5pdHEAfgFPdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4BQHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4Al3QABVBsYWlucQB+AF9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+ALZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AKRzcQB+ALV0AAVBcnJheXEAfgFPdXEAfgCzAAAAAXNxAH4AtXQABlN0cmluZ3NxAH4AuXNxAH4AvHVxAH4AvwAAAANzcQB+AMFxAH4Az3NxAH4AwXEAfgDRcQB+AMhzcQB+AJwAcHNxAH4AoXVxAH4AswAAAARzcQB+ALV0AANBcHBxAH4BT3NxAH4AtXQAC0RlbGF5ZWRJbml0cQB+AU9zcQB+ALVxAH4AynEAfgFsc3EAfgC1cQB+ANNxAH4BT3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFUW9nvCnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFgvVXNlcnMvdmhldXNjaGxpbmcvV09SSy9ha2thLXBsYXlncm91bmQvc3RlcDEyLXJlbW90aW5nL3JlbW90ZS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUHDoN+odORMBJYvdywqJU5MCTowU=
 external apis:
 0 items
 source infos:
 1 items
-/Users/vheuschling/WORK/akka-playground/step20-remoting/remote/main.scala -> 
+/Users/vheuschling/WORK/akka-playground/step12-remoting/remote/main.scala -> 
 AAAAAAAAAAA=
 compilations:
-30 items
+31 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU7nb//d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU8GgZ6x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMTAtZXhjZXB0aW9ucy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU8Gml8F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMTAtZXhjZXB0aW9ucy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -190,3 +190,4 @@ compilations:
 27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVBYyOp11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMjAtcmVtb3RpbmcvcmVtb3RlL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVBY35Xx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMjAtcmVtb3RpbmcvcmVtb3RlL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
 29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVBY+EAd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMjAtcmVtb3RpbmcvcmVtb3RlL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVFvZ7wp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9Vc2Vycy92aGV1c2NobGluZy9XT1JLL2Fra2EtcGxheWdyb3VuZC9zdGVwMTItcmVtb3RpbmcvcmVtb3RlL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
