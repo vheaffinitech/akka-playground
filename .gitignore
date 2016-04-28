@@ -1,4 +1,4 @@
-project/*
-target/*
 **/project/*
 **/target/*
+**/**/project/*
+**/**/target/*
