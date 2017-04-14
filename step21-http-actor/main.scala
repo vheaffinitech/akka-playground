@@ -9,13 +9,14 @@ import scala.concurrent.duration._
 import scala.concurrent.Await
 import scala.concurrent.Future
 import akka.pattern.ask
+import scala.io.StdIn
 
 case class Req(text : String)
 
 class RequestActor extends Actor {
   def receive = {
     case Req(t)  => {
-      //println(s" RequestActor received '$t'")
+      println(s" RequestActor received '$t'")
     }
   }
 }
